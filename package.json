@@ -20,7 +20,8 @@
     "react-tap-event-plugin": "^2.0.1",
     "react-toastr": "^2.8.2",
     "semantic-ui-react": "^0.70.0",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.0.3",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "babel-core": "^6.16.0",
