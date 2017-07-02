@@ -1,7 +1,8 @@
 import React from 'react';
-import io from 'socket.io-client'
-import TweetCard from './tweetCard'
-import {Card, Image} from 'semantic-ui-react'
+import io from 'socket.io-client';
+import TweetCard from './tweetCard';
+import {Card, Image} from 'semantic-ui-react';
+import mail from '../../images/mail.gif'
 const ReactToastr = require('react-toastr');
 const {ToastContainer} = ReactToastr;
 const ToastMessageFactory = React.createFactory(ReactToastr.ToastMessage.animation);
@@ -66,7 +67,7 @@ export default class Layout extends React.Component {
         return <TweetCard tweet={tweet}/>
       })
     else
-      tweetPortlets = <p>Tweets on their wy to screen..</p>
+      tweetPortlets = <div style={{backgroundImage: "url(" + mail + ")",height: '80vh'}}><p>Tweets on their wy to screen..</p></div>
 
     return (
       <div>
