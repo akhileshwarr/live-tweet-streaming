@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
     this.newFeedAlert = this.newFeedAlert.bind(this);
     this.unreadFeedAlert = this.unreadFeedAlert.bind(this);
     this.handleUnreadTweets = this.handleUnreadTweets.bind(this);
-    this.handleUnreadTweets = this.handleUnreadTweets.bind(this);
+    this.handleNewTweets = this.handleNewTweets.bind(this);
   }//end of constructor
 	//used ReactToastr to notify new feed
   newFeedAlert() {
