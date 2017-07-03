@@ -7,5 +7,5 @@ module.exports = {
   },
   "host":'0.0.0.0',
   "port":8080,
-  "dburl":'mongodb://localhost/twiter'
+  "dburl":'mongodb://root:root@ds145952.mlab.com:45952/heroku_m3sjl3sn'
 }
